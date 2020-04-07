@@ -1,0 +1,41 @@
+PODS:
+  - ADNetwork (0.1.0):
+    - ADProgressHUD
+    - YTKNetwork
+  - ADProgressHUD (0.1.0):
+    - MBProgressHUD
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - MBProgressHUD (1.2.0)
+  - YTKNetwork (2.1.4):
+    - AFNetworking/NSURLSession (~> 3.0)
+
+DEPENDENCIES:
+  - ADNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ADProgressHUD
+    - AFNetworking
+    - MBProgressHUD
+    - YTKNetwork
+
+EXTERNAL SOURCES:
+  ADNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ADNetwork: ce31de84b2963e26678441a1cf0b9db0274158d6
+  ADProgressHUD: b0cc6b6b9fdf9c7e5cc5e9917859a5f41b7ec0c4
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  YTKNetwork: 19be749c30f0512ada07180f4637b4b67bc8ddc2
+
+PODFILE CHECKSUM: ff7062ab4653cb3a91ce67467138fe3c259e6f8e
+
+COCOAPODS: 1.9.1
